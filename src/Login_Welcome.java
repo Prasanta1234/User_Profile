@@ -58,7 +58,7 @@ public class Login_Welcome extends JFrame implements ActionListener
 		lblHiwelcome.setBounds(99, 11, 209, 62);
 		lblHiwelcome.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		if(name.trim()=="")                    //if name field is empty
-		    //Display error message
+		    //Display error message for invalid name
 		String mssge="Hi ";
 		mssge+=name;
 		mssge+="..Welcome!!!";
